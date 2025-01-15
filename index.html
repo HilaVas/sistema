@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+</head>
+<body>
+    <center>
+    <h1>CAJA CHICA</h1>
+    <hr>
+    <form method="get" action="archivo.php">
+        <label> Producto  :</label>
+        <input type="text" name="producto" size="17" placeholder="Producto" >
+        <br><br>
+        <label> Cantidad  :</label>
+        <input type="number" name="cantidad" size="17" placeholder="Cantidad" >
+        <br><br>
+        <label> Precio Bruto:</label>
+        <input type="text" name="bruto" size="17" placeholder="Precio Bruto" >
+        <br><br>
+        <input type="submit" value="Calcular">
+        <br><br>
+        <input type="reset" value="Limpiar">
+        <br><br>
+        <label> IGV 18% :</label>
+        <input disabled type="number" name="igv" size="17" placeholder="IGV">
+        <br><br>
+        <label> Precio Neto:</label>
+        <input disabled type="number" name="neto" size="17" placeholder="Precio Neto" >
+        <br><br>
+        <br>
+    </center>
+    </form>
+
+</body>
+</html>
